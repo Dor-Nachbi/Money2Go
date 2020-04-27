@@ -1,0 +1,59 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+    <link href="~/signUp/signup.css" rel="stylesheet" />
+    <script src="~/signUp/signup.js"></script>
+
+
+
+<div class="row">
+    <div class="col-md-5 offset-3 text-center">
+        <section>
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <form method="post">
+                <h2>Please Log In</h2>
+                <hr class="colorgraph">
+                <div class="form-group">
+                    <label asp-for="Input.UserName"></label>
+                    <input asp-for="Input.UserName" id="display_name" class="form-control input-lg" placeholder="Username" tabindex="3" />
+                    <span asp-validation-for="Input.UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Input.Password"></label>
+                    <input asp-for="Input.Password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label asp-for="Input.RememberMe">
+                            <input asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div>
+                    <hr class="colorgraph">
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-md-4 form-group offset-3"> 
+                    <button type="submit" class="btn btn-success btn-block btn-lg">Log in</button>
+                    </div>
+                </div>
+               
+                <div class="form-group">
+                    
+                    <p>
+                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </div>
+    
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

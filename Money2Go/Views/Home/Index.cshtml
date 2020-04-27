@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Money2Go.Models.Project>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+    <link href="~/css/Card.css" rel="stylesheet" />
+
+    <partial name="_Carousel" />
+
+
+
+<!------ Include the above in your HEAD tag ---------->
+
+@*<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">*@
+<div class="container">
+    <h3 class="pb-3 mb-4 font-italic border-bottom" style="text-shadow:0px 1px 2px #262626">
+        Explore projects
+    </h3>
+    
+
+    <div class="row">
+
+        @{//list of the last 3 added projects is inside x
+            var x = TempData["list"];
+            
+            }
+        @foreach (var project in Model)
+        {
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img class="card-img-top" src="//placeimg.com/290/180/any" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@project.ProjectName </h5>
+                    <p class="card-text">@project.Description</p>
+                    <a asp-controller="Projects" asp-action="Details" asp-route-id="@project.ProjectId" class="btn btn-outline-dark btn-sm">Go To Project</a>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+ </div>
+

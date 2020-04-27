@@ -1,0 +1,74 @@
+﻿@model Money2Go.Models.Project
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<script src="~/css/PostCommentJS.js"></script>
+<link href="~/css/PostCommentStyle.css" rel="stylesheet" />
+<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#createComment').click(function () {
+            var projectId = @Html.DisplayFor(model => model.ProjectId);
+            var theComment = $('#theComment').val();
+            if (theComment.trim() == '') {
+                document.getElementById("answer").innerHTML = "Please enter comment.";
+                return;
+            }
+            else {
+                document.getElementById("answer").innerHTML = "Posting your comment...";
+                $.ajax({
+                    url: "@Url.Action("AjaxComment", "Comments")",
+                    type: 'POST',
+                    //dataType: 'json',
+                    data: { ProjectId: projectId, theComment: theComment },
+                    cache: false,
+                    success: function (result) {
+                        if (result == "OK!") {
+                            $("#comments-list").load(location.href + " #comments-list > *");
+                            $("#commentsCount").load(location.href + " #commentsCount > *");
+                            document.getElementById("answer").innerHTML = "Post sent!";
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        //alert(xhr.status);
+                        //alert(thrownError);
+                    }
+                });
+            }
+        });
+    });
+</script>
+<div class="row">
+
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+    <div class="col-md-8 offset-2">
+        <div class="status-upload">
+            <form onsubmit="return false;">
+                <textarea id="theComment" placeholder="Comment on this project"></textarea>
+                <button id="createComment" value="Create" class="btn btn-success green center">
+                    Comment
+                </button>
+            </form>
+        </div><!-- Status Upload  -->
+        <div id="answer"></div>
+    </div><!-- Widget Area -->
+
+
+    }
+    else
+    {
+
+
+        <div class="row offset-5">
+
+            <div class="col-xs-12 col-md-12"><a asp-area="Identity" asp-page="/Account/Login" class="btn btn-success btn-block btn-lg" tabindex="7">Sign In Please</a></div>
+        </div>
+    }
+
+</div>

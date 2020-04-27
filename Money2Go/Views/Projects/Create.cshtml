@@ -1,0 +1,77 @@
+﻿@model Money2Go.Models.Project
+
+
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<canvas id="myCanvas" width="220" height="80">
+    Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Create Project",10,50);
+</script>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <!--<div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+            </div> -->
+            <div class="form-group">
+                <label asp-for="ProjectName" class="control-label"></label>
+                <input asp-for="ProjectName" class="form-control" />
+                <span asp-validation-for="ProjectName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea style="height:200px;" asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pic_path" class="control-label"></label>
+                <input asp-for="pic_path" class="form-control" />
+                <span asp-validation-for="pic_path" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="vid_path" class="control-label"></label>
+                <input asp-for="vid_path" class="form-control" />
+                <span asp-validation-for="vid_path" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="goal" class="control-label"></label>
+                <input asp-for="goal" class="form-control" />
+                <span asp-validation-for="goal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Category" class="control-label"></label>
+                <select asp-for="Category" class="form-control">            
+                    <option value="Technology">Technology</option>
+                    <option value="Community">Community</option>
+                    <option value="Cryptocurrency">Cryptocurrency</option>
+                </select>
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

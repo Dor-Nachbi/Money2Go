@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Money2Go.Models.Comment>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.owner)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProjectId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.theComment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateSubmit)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.owner.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProjectId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.theComment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateSubmit)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.commentId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.commentId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.commentId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

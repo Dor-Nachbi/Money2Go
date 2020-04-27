@@ -1,0 +1,92 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+
+<link href="~/signUp/signup.css" rel="stylesheet" />
+<script src="~/signUp/signup.js"></script>
+
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+
+    <div class="row align-content-center">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 offset-3 ">
+            <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <h2>Please Sign Up <small>It's free and always will be.</small></h2>
+                <hr class="colorgraph">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+
+                        <div class="form-group">
+                            <label asp-for="Input.FirstName"></label>
+                            <input asp-for="Input.FirstName" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1" />
+                            <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Input.LastName"></label>
+                            <input asp-for="Input.LastName" id="last_name" class="form-control input-lg" placeholder="First Name" tabindex="2" />
+                            <span asp-validation-for="Input.LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Input.UserName"></label>
+                    <input asp-for="Input.UserName" id="display_name" class="form-control input-lg" placeholder="Username" tabindex="3" />
+                    <span asp-validation-for="Input.UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Input.Email"></label>
+                    <input asp-for="Input.Email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Input.Country"></label>
+                    <select asp-for="Input.Country" id="Country" class="form-control input-lg" tabindex="4">
+                        <option value="israel">Israel</option>
+                        <option value="united state">United State</option>
+                        <option value="united kingdom">United Kingdom</option>
+                        <option value="canada">Canada</option>
+
+                    </select>
+                    <span asp-validation-for="Input.Country" class="text-danger"></span>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Input.Password"></label>
+                            <input asp-for="Input.Password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Input.ConfirmPassword"></label>
+                            <input asp-for="Input.ConfirmPassword" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <hr class="colorgraph">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+                    <div class="col-xs-12 col-md-6"><a href="Login" class="btn btn-success btn-block btn-lg">Sign In</a></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Modal -->
+    
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

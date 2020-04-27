@@ -1,0 +1,454 @@
+﻿@model Money2Go.Models.ApplicationUser
+@using Microsoft.AspNetCore.Identity
+@using Money2Go.Roles;
+@inject UserManager<ApplicationUser> UserManager
+<head>
+    <link href="~/css/updateProfileStyle.css" rel="stylesheet" />
+</head>
+<script>
+    var geocoder;
+    var map;
+    function initMap() {
+        geocoder = new google.maps.Geocoder();
+        map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 1,
+            center: { lat: 30, lng: 0 }
+        });
+    }
+    function geocodeAddress(geocoder, resultsMap, address, username) {
+        geocoder.geocode({ 'address': address }, function (results, status) {
+            if (status === 'OK') {
+                resultsMap.setCenter(results[0].geometry.location);
+
+                var marker = new google.maps.Marker({
+                    map: resultsMap,
+                    position: results[0].geometry.location,
+                    title: username
+                });
+            } else {
+                alert(status);
+            }
+        });
+    }
+    function loadMap()
+    {
+             @if (User.IsInRole(Permission.AdminUser))
+             {
+                  @foreach (var user in ((List<ApplicationUser>)TempData["users"]))
+                    {
+                        @:geocodeAddress(geocoder, map, '@user.Country', '@user.UserName');
+                     }
+            }
+    }
+    $(document).ready(function () {
+
+        var readURL = function (input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('.avatar').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+
+        $(".file-upload").on('change', function () {
+            readURL(this);
+        });
+
+
+        $('#updateDetails').click(function () {
+            var firstName = $('#first_name').val();
+            var lastName = $('#last_name').val();
+            var phone = $('#phone').val();
+            var email = $('#email').val();
+            var credit = $('#credit').val();
+            var password = $('#password').val();
+            var verifyPassword = $('#verifypassword').val();
+            var updatePassword = false;
+            if (password != verifyPassword) {
+                document.getElementById("updateResult").innerHTML = "Passwords don't match.";
+                return;
+            }
+            else {
+                if (password == verifyPassword) {
+                    if (password.length < 6 && password != "1234")
+                        document.getElementById("updateResult").innerHTML = "Passwords must be at least 6 characters";
+                    else
+                        if (password == "1234")
+                            updatePassword = false;
+                        else
+                            updatePassword = true;
+                }
+                document.getElementById("updateResult").innerHTML = "Updating your details...";
+                $.ajax({
+                    url: "@Url.Action("UpdateDetails", "Home")",
+                    type: 'POST',
+
+                    //dataType: 'json',
+                    data: {
+                        firstName: firstName, lastName: lastName, PhoneNumber: phone,
+                        Email: email, credit: credit, password: password, updatePassword: updatePassword
+                    },
+                    cache: false,
+                    success: function (result) {
+                        if (result == "OK!") {
+                            document.getElementById("updateResult").innerHTML = "Updated Successfully!";
+                        }
+                        else {
+                            document.getElementById("updateResult").innerHTML = "Please check your details.!";
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        document.getElementById("updateResult").innerHTML = "Failed!";
+                        //alert(xhr.status);
+                        //alert(thrownError);
+                    }
+                });
+            }
+        });
+    });
+
+    function getTotalMoney(projectID) {
+        var theResult = null;
+        $.ajax({
+            url: "@Url.Action("CalculateCurrentSum", "Projects")",
+            type: 'GET',
+            dataType: 'json',
+            async: false,
+            data: { projectId: projectID },
+            cache: false,
+            success: function (result) {
+                theResult = result;
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                alert("error");
+                //alert(xhr.status);
+                //alert(thrownError);
+            }
+        });
+        return theResult;
+    }
+</script>
+<hr>
+<div class="container bootstrap snippet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <div class="row">
+        <div class="col-sm-10"><h1>@Html.DisplayFor(model => model.UserName)</h1></div>
+        <div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="http://www.gravatar.com/avatar/28fd20ccec6865e2d5f0e1f4446eb7bf?s=100"></a></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <!--left col-->
+
+            <div class="text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/1024px-User_icon_2.svg.png" class="avatar img-circle img-thumbnail" alt="avatar">
+                <h6>@Html.DisplayFor(model => model.Country)</h6>
+            </div>
+
+
+
+
+
+        </div><!--/col-3-->
+        <div class="col-sm-9">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">My Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#updates" role="tab" aria-controls="updates" aria-selected="false">Latest Updates</a>
+                </li>
+                @if (User.IsInRole(Permission.AdminUser))
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="loadMap()" id="contact-tab" data-toggle="tab" href="#users" role="tab" aria-controls="users" aria-selected="false">Manage Users</a>
+                    </li>
+                }
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <!--user details-->
+                    <div class="container">
+                        <form onsubmit="return false;">
+                            <div style="margin-top:10px" class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label style="margin-bottom:0px" for="first_name"><h5>First Name</h5></label>
+                                        <input type="text" value="@Html.DisplayFor(model => model.FirstName)" class="form-control" name="first_name" id="first_name" placeholder="First name" title="enter your first name">
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label style="margin-bottom:0px" for="last_name"><h5>Last Name</h5></label>
+                                        <input type="text" value="@Html.DisplayFor(model => model.LastName)" class="form-control" name="last_name" id="last_name" placeholder="Last name" title="enter your last name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label style="margin-bottom:0px" for="phone"><h5>Phone</h5></label>
+                                        <input type="text" value="@Html.DisplayFor(model => model.PhoneNumber)" class="form-control" name="phone" id="phone" placeholder="Phone" title="enter your phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label style="margin-bottom:0px" for="email"><h5>E-Mail</h5></label>
+                                        <input type="email" value="@Html.DisplayFor(model => model.Email)" class="form-control" name="email" id="email" placeholder="E-Mail" title="enter your E-Mail">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <label style="margin-bottom:0px" for="username"><h5>Username</h5></label>
+                                        <input disabled="disabled" type="text" value="@Html.DisplayFor(model => model.UserName)" class="form-control" name="username" id="username" placeholder="Username" title="enter your Username">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <label style="margin-bottom:0px" for="credit"><h5>Credit Card</h5></label>
+                                        <input type="text" value="@Html.DisplayFor(model => model.Credit)" class="form-control" name="credit" id="credit" placeholder="Credit Card" title="enter your Credit Card">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label style="margin-bottom:0px" for="password"><h5>Password</h5></label>
+                                        <input type="password" value="1234" class="form-control" name="password" id="password" placeholder="Password" title="enter your Password">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label style="margin-bottom:0px" for="verifypassword"><h5>Verify Password</h5></label>
+                                        <input type="password" value="1234" class="form-control" name="verifypassword" id="verifypassword" placeholder="Verify Password" title="enter your Verify Password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <button id="updateDetails" class="btn btn-lg btn-success pull-right"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:-10px">
+                                <div class="col-sm-12">
+                                    <div id="updateResult"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--end user details-->
+                <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                    <!--projects details-->
+
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="main-box clearfix">
+                                    <div class="table-responsive">
+                                        <table class="table user-list">
+                                            <thead>
+                                                <tr>
+                                                    <th><span>Project</span></th>
+                                                    <th><span>Created</span></th>
+                                                    <th class="text-center"><span>Owner</span></th>
+                                                    <th><span>Goal</span></th>
+                                                    <th>&nbsp;</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @{var projects = Model.projects;
+                                                    if (User.IsInRole(Permission.AdminUser))
+                                                    {
+                                                        projects = (List<Project>)TempData["projects"];
+                                                    }
+                                                }
+                                                @foreach (var project in projects)
+                                                {
+                                                    <tr>
+                                                        <td>
+                                                            <img src="@Html.DisplayFor(item => project.pic_path)" alt="logo" onerror="this.src='https://teamdo.co.il/wp-content/uploads/2018/01/people-management.png'">
+                                                            <a href="#" class="user-link">@Html.DisplayFor(item => project.ProjectName)</a>
+                                                            <span class="user-subhead">@Html.DisplayFor(item => project.Category)</span>
+
+                                                        </td>
+                                                        <td>
+                                                            @Html.DisplayFor(item => project.DateProject)
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <span class="label label-default">@Html.DisplayFor(item => project.user.UserName)</span>
+                                                        </td>
+                                                        <td>
+
+                                                            <a href="#">
+                                                                <script>document.write(getTotalMoney(@Html.DisplayFor(item => project.ProjectId)));</script>$/@Html.DisplayFor(item => project.goal)$
+                                                            </a>
+                                                        </td>
+                                                        <td style="width: 20%;">
+                                                            <a href="@Url.Action("Details", "Projects", new { id = project.ProjectId })" class="table-link">
+                                                                <span class="fa-stack">
+                                                                    <i class="fa fa-square fa-stack-2x"></i>
+                                                                    <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                                </span>
+                                                            </a>
+                                                            <a href="@Url.Action("Edit", "Projects", new { id = project.ProjectId })" class="table-link">
+                                                                <span class="fa-stack">
+                                                                    <i class="fa fa-square fa-stack-2x"></i>
+                                                                    <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                                </span>
+                                                            </a>
+                                                            <a href="@Url.Action("Delete", "Projects", new { id = project.ProjectId })" class="table-link danger">
+                                                                <span class="fa-stack">
+                                                                    <i class="fa fa-square fa-stack-2x"></i>
+                                                                    <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                                </span>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <ul class="pagination pull-right">
+                                        <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end projects details-->
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="tab-pane fade" id="updates" role="tabpanel" aria-labelledby="updates-tab">
+                    <!--updates-->
+                    <!--end updates-->
+                </div>
+                <div class="tab-pane fade" id="users" role="tabpanel" aria-labelledby="users-tab">
+                    <!--users manage-->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="main-box clearfix">
+                                    <div class="table-responsive">
+                                        <table class="table user-list">
+                                            <thead>
+                                                <tr>
+                                                    <th><span>User</span></th>
+                                                    <th><span>Created</span></th>
+                                                    <th class="text-center"><span>Credit</span></th>
+                                                    <th><span>Email</span></th>
+                                                    <th>&nbsp;</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @if (User.IsInRole(Permission.AdminUser))
+                                                {
+
+                                                    @foreach (var user in ((List<ApplicationUser>)TempData["users"]))
+                                                    {   
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                                                                <a href="#" class="user-link">@Html.DisplayFor(item => user.FirstName) @Html.DisplayFor(item => user.LastName)</a>
+                                                                @if ((await UserManager.IsInRoleAsync(user, Permission.AdminUser)))
+                                                                {
+                                                                    <span class="user-subhead">Admin</span>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <span class="user-subhead">Member</span>
+                                                                }
+
+                                                            </td>
+                                                            <td>
+                                                                @Html.DisplayFor(item => user.EnrollmentDate)
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="label label-default">@Html.DisplayFor(item => user.Credit)</span>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">@Html.DisplayFor(item => user.Email)</a>
+                                                            </td>
+                                                            <td style="width: 20%;">
+                                                                <a href="#" class="table-link">
+                                                                    <span class="fa-stack">
+                                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <a href="#" class="table-link">
+                                                                    <span class="fa-stack">
+                                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <a href="#" class="table-link danger">
+                                                                    <span class="fa-stack">
+                                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+
+                                                    }
+                                                }
+
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <ul class="pagination pull-right">
+                                        <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--google map-->
+                            <div id="map" style="height:450px; width:500px;"></div>
+                        </div>
+                    </div>
+                    <!--end users manage-->
+                </div>
+            </div>
+
+        </div><!--/tab-pane-->
+    </div><!--/tab-content-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHjY8E-DOmraLfcgNcVNWVR7_fb-j54YM&callback=initMap"
+            async defer></script>
+</div><!--/col-9-->

@@ -1,0 +1,276 @@
+D:\visual studio 2017\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.deps.json
+D:\visual studio 2017\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.runtimeconfig.json
+D:\visual studio 2017\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.runtimeconfig.dev.json
+D:\visual studio 2017\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.dll
+D:\visual studio 2017\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.pdb
+D:\visual studio 2017\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.Views.dll
+D:\visual studio 2017\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.Views.pdb
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.csprojAssemblyReference.cache
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.csproj.CoreCompileInputs.cache
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorAssemblyInfo.cache
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorAssemblyInfo.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.AssemblyInfoInputs.cache
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.AssemblyInfo.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.TagHelpers.input.cache
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.TagHelpers.output.cache
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorCoreGenerate.cache
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorTargetAssemblyInfo.cache
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorTargetAssemblyInfo.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.Views.pdb
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.dll
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.pdb
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.csproj.CopyComplete
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Lockout.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Create.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Delete.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Details.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Edit.g.cshtml.cs
+D:\visual studio 2017\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Index.g.cshtml.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.deps.json
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.runtimeconfig.json
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.runtimeconfig.dev.json
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.dll
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.pdb
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.Views.dll
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.Views.pdb
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorAssemblyInfo.cache
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorAssemblyInfo.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.AssemblyInfoInputs.cache
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.AssemblyInfo.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.TagHelpers.input.cache
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.TagHelpers.output.cache
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorCoreGenerate.cache
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Create.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Delete.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Details.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Edit.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Index.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Create.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Delete.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Details.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Edit.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Index.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorTargetAssemblyInfo.cache
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorTargetAssemblyInfo.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.Views.pdb
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.dll
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.pdb
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.csproj.CopyComplete
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.csprojAssemblyReference.cache
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\libman.json
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CommentLayout.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_PostCommentLayout.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Data\yelp_labelled.txt
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\MLModel.zip
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2GoML.Model.dll
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2GoML.Model.pdb
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Create.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Delete.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Details.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Edit.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Index.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Profile.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.dll.config
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.dll.config
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\maor\Desktop\projectFullStack\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Piechart.cshtml.g.cs
+E:\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.csprojAssemblyReference.cache
+E:\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.dll.config
+E:\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorAssemblyInfo.cache
+E:\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorAssemblyInfo.cs
+E:\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.AssemblyInfoInputs.cache
+E:\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.AssemblyInfo.cs
+E:\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.dll
+E:\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.pdb
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\MLModel.zip
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Data\yelp_labelled.txt
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.dll.config
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.deps.json
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.runtimeconfig.json
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.runtimeconfig.dev.json
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.dll
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.pdb
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.Views.dll
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2Go.Views.pdb
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2GoML.Model.dll
+C:\Users\Dor\Desktop\Money2Go\Money2Go\bin\Debug\netcoreapp2.1\Money2GoML.Model.pdb
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.csprojResolveAssemblyReference.cache
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.dll.config
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.csproj.CoreCompileInputs.cache
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorAssemblyInfo.cache
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorAssemblyInfo.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.AssemblyInfoInputs.cache
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.AssemblyInfo.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.TagHelpers.input.cache
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.TagHelpers.output.cache
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorCoreGenerate.cache
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Lockout.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Create.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Delete.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Details.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Edit.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Comments\Index.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Piechart.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Home\Profile.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Create.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Delete.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Details.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Edit.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Projects\Index.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Carousel.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CommentLayout.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_PostCommentLayout.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Create.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Delete.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Details.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Edit.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\Tranzactions\Index.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorTargetAssemblyInfo.cache
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.RazorTargetAssemblyInfo.cs
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.Views.pdb
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.dll
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.pdb
+C:\Users\Dor\Desktop\Money2Go\Money2Go\obj\Debug\netcoreapp2.1\Money2Go.csproj.CopyComplete
